@@ -15,7 +15,7 @@ export default async function handler(req, res) {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        version: "INSERT_MODEL_VERSION_ID_HERE",
+        version: "15e9a35859d67ab801af55efcb75b67d576b3c63cb67c73e3b07df602e89e5a7",
         input: {
           image: image,
           prompt: "Show this awning as if it has been cleaned, but keeping any sun-bleaching or fading that a physical clean cannot change. Keep structure, logos, and colors realistic."
